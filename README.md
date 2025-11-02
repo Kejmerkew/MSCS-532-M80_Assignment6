@@ -54,3 +54,17 @@ duplicates | Deterministic: 1.56 ms | Randomized: 1.74 ms
 Benchmark completed.
 
 ```
+
+## Summary of Findings
+### Theoretical Analysis
+
+* Deterministic (Median of Medians): Achieves true O(n) performance in the worst case by ensuring balanced partitions.
+* Randomized (Quickselect): Expected time complexity of O(n), though rare worst-case inputs may reach O(n²).
+* Space Complexity: Both algorithms are O(1) for in-place partitioning (aside from recursion overhead).
+
+### Empirical Results
+
+* For small inputs, both algorithms performed similarly.
+* On sorted and reversed data, the randomized approach was faster due to simpler partitioning.
+* For larger arrays, the deterministic algorithm showed stable and predictable performance, confirming its resilience to input ordering.
+* The overall empirical trend matches theoretical expectations: Randomized Quickselect tends to outperform on average, but Median of Medians guarantees consistency.
