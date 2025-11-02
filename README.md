@@ -1,13 +1,13 @@
 # ⚙️ Part 1: Implementation and Analysis of Selection Algorithms
 
-## 📘 Overview
-This project focuses on the implementation and performance analysis of algorithms for finding the **k-th smallest element** in an array — also known as **order statistics**. It includes both the **deterministic Median of Medians algorithm** (guaranteed worst-case linear time) and the **randomized Quickselect algorithm** (expected linear time).  
+## Overview
+This project focuses on the implementation and performance analysis of algorithms for finding the **k-th smallest element** in an array, also known as **order statistics**. It includes both the **deterministic Median of Medians algorithm** (guaranteed worst-case linear time) and the **randomized Quickselect algorithm** (expected linear time).  
 
 The study compares their theoretical complexities and empirical performance across different input distributions.
 
 ---
 
-## 🧮 Implemented Algorithms
+## Implemented Algorithms
 
 ### 1. **Deterministic Selection (Median of Medians)**
 - Guarantees **O(n)** time complexity in the **worst case**.  
@@ -20,9 +20,10 @@ The study compares their theoretical complexities and empirical performance acro
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### **1. Clone or Download the Repository**
 ```bash
 git clone <repository-url>
 cd SelectionAlgorithms
+```
