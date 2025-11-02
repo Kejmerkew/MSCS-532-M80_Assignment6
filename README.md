@@ -1,12 +1,5 @@
 # Part 1: Implementation and Analysis of Selection Algorithms
 
-## Overview
-This project focuses on the implementation and performance analysis of algorithms for finding the **k-th smallest element** in an array, also known as **order statistics**. It includes both the **deterministic Median of Medians algorithm** (guaranteed worst-case linear time) and the **randomized Quickselect algorithm** (expected linear time).  
-
-The study compares their theoretical complexities and empirical performance across different input distributions.
-
----
-
 ## Implemented Algorithms
 
 ### 1. **Deterministic Selection (Median of Medians)**
@@ -68,3 +61,31 @@ Benchmark completed.
 * On sorted and reversed data, the randomized approach was faster due to simpler partitioning.
 * For larger arrays, the deterministic algorithm showed stable and predictable performance, confirming its resilience to input ordering.
 * The overall empirical trend matches theoretical expectations: Randomized Quickselect tends to outperform on average, but Median of Medians guarantees consistency.
+
+---
+# Part 2: Elementary Data Structures Implementation and Discussion
+---
+
+## Implementation Details
+
+### Implemented Data Structures
+- **Array:** Supports insertion, deletion, and element access.  
+- **Stack:** Implemented using an array with push and pop operations.  
+- **Queue:** Implemented using an array with enqueue and dequeue operations.  
+- **Linked List:** Implements node-based insertion, deletion, and traversal.
+
+Each data structure is implemented **from scratch** to provide a deeper understanding of their underlying mechanics and efficiency trade-offs.
+
+---
+
+## How to Run
+
+### **1. Clone or Download the Repository**
+```bash
+git clone https://github.com/Kejmerkew/MSCS-532-M80_Assignment6
+cd Code
+python DataStructures.py
+```
+
+
+
