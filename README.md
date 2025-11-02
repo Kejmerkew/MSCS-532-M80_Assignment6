@@ -87,5 +87,26 @@ cd Code
 python DataStructures.py
 ```
 
+### **2. Output will look like this:**
+```
+=== Demonstrating Elementary Data Structures ===
+Array: [10, 30]
+Stack: [5]
+Queue: [2]
+Linked List: 10 -> 30
+```
 
+## Summary of Findings
+Arrays are faster for random access, while linked lists are better for frequent insertions or deletions. When stacks and queues are implemented using arrays, they offer faster fixed-size performance but can suffer from costly resizing. Linked lists, however, provide more flexible memory management with minimal overhead for dynamic growth.
+| Data Structure| Operation | Time Complexity |
+|---|---|---|
 
+| Array | Access | O(1) |
+|  | Insertion/Deletion | O(n) |
+
+| Stack | Push/Pop | O(1) |
+
+| Queue | Enqueue/Dequeue | O(1) |
+
+| Linked List | Insertion/Deletion (at head) | O(1) |
+|  | Access (by index) | O(n) |
