@@ -22,8 +22,9 @@ The study compares their theoretical complexities and empirical performance acro
 
 ## How to Run
 
-### **1. Clone or Download the Repository**
+### **1. Clone or Download the Repository & Run program**
 ```bash
-git clone <repository-url>
-cd SelectionAlgorithms
+git clone https://github.com/Kejmerkew/MSCS-532-M80_Assignment6
+cd Code
+python SelectionAlgorithms.py
 ```
